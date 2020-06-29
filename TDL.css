@@ -6,9 +6,14 @@ html {
   height: auto;
 }
 
-div,
 button {
-  -webkit-appearance: none;
+  -webkit-user-select: auto;
+}
+
+input {
+  -webkit-user-select: auto;
+
+  -webkit-appearance: textfield;
 }
 
 .bg1 {
