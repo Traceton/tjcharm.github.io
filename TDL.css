@@ -6,6 +6,11 @@ html {
   height: auto;
 }
 
+div,
+button {
+  -webkit-appearance: none;
+}
+
 .bg1 {
   /* The image used */
   background-image: url("https://images.unsplash.com/photo-1590474879704-135dbd7f8ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
