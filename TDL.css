@@ -1,0 +1,35 @@
+body,
+html {
+  height: 100vh;
+}
+.view {
+  height: auto;
+}
+
+.bg1 {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1590474879704-135dbd7f8ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgBlack {
+  background-color: black;
+}
+
+.padding {
+  flex-wrap: nowrap;
+  padding: 1%;
+}
+
+.cleared {
+  visibility: hidden;
+}
+.cursorReset {
+  cursor: initial;
+}

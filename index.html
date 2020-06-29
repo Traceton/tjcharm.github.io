@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="TDL.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>To Do?</title>
+  </head>
+  <body>
+    <div
+      class="container-fluid d-flex bg1 flex-column justify-content-center align-items-center text-white"
+    >
+      <h1>hello internet friends</h1>
+      <h2>Please create your list.</h2>
+      <button class="btn btn-dark" id="userButtonInput">Add To List!</button>
+      <br />
+      <input
+        id="userListInput"
+        class="btn btn-dark"
+        type="text"
+        placeholder="Start your list here"
+      />
+      <br />
+
+      <div
+        class="d-flex flex-column text-white justify-content-center align-items-center"
+        id="list"
+      ></div>
+      <br />
+      <button class="btn btn-danger" id="clearlocalstorage">
+        DELETE LIST FOREVER
+      </button>
+    </div>
+  </body>
+  <script type="module" src="./TDLMain.js"></script>
+</html>
