@@ -6,11 +6,17 @@ html {
   height: auto;
 }
 
-input,
-textarea {
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  user-select: text;
+.btn-knockOff {
+  background-color: #343a40;
+  border-color: transparent;
+  border-radius: 8px;
+  color: white;
+}
+.btn-danger-knockOff {
+  background-color: #dc3545;
+  border-color: transparent;
+  border-radius: 8px;
+  color: white;
 }
 
 .bg1 {
@@ -23,20 +29,4 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.bgBlack {
-  background-color: black;
-}
-
-.padding {
-  flex-wrap: nowrap;
-  padding: 1%;
-}
-
-.cleared {
-  visibility: hidden;
-}
-.cursorReset {
-  cursor: initial;
 }
