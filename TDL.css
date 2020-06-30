@@ -6,14 +6,11 @@ html {
   height: auto;
 }
 
-button {
-  -webkit-user-select: auto;
-}
-
-input {
-  -webkit-user-select: auto;
-
-  -webkit-appearance: textfield;
+input,
+textarea {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
 }
 
 .bg1 {
