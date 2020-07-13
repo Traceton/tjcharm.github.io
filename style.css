@@ -91,6 +91,14 @@ a {
     border-radius: 8%;
     margin-bottom: 2em;
   }
+  #CTSImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20em;
+    border-radius: 8%;
+    margin-bottom: 2em;
+  }
   .value {
     overflow: hidden;
     color: black;
@@ -188,6 +196,14 @@ a {
     text-align: center;
   }
   #toDoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 30vw;
+    border-radius: 8%;
+    margin-bottom: 2em;
+  }
+  #CTSImg {
     display: flex;
     justify-content: center;
     align-items: center;
