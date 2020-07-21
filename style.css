@@ -99,6 +99,15 @@ a {
     border-radius: 8%;
     margin-bottom: 2em;
   }
+
+  #speedBallImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20em;
+    border-radius: 8%;
+    margin-bottom: 2em;
+  }
   .value {
     overflow: hidden;
     color: black;
@@ -211,6 +220,16 @@ a {
     border-radius: 8%;
     margin-bottom: 2em;
   }
+
+  #speedBallImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20em;
+    border-radius: 8%;
+    margin-bottom: 2em;
+  }
+
   .value {
     overflow: hidden;
     color: black;
